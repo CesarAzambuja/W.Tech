@@ -1,0 +1,33 @@
+footer{
+    background-color: var(--base-color);
+}
+
+footer.section{
+    padding: 4rem 0;
+}
+
+.logo-alt span{
+    color: var(--body-color);
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+footer .brand p{
+    color: var(--text-color-light);
+    margin-bottom: 0.75rem;
+}
+
+footer .social{
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
+footer .social a{
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+    transition: 300ms;
+}
+
+footer .social a:hover{
+    transform: translateY(-8px);
+}
