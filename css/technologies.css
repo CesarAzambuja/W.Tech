@@ -50,7 +50,7 @@
   align-items: center;
 }
 
-.sessao-header h1 {
+.sessao-header h2 {
   font-family: var(--font-primary);
   font-size: 3rem;
 }
@@ -58,7 +58,7 @@
 .conhecimento-header {
   display: flex;
   align-items: center;
-  color: #4b4b4b;
+  color: #ff4081;
 }
 
 .conhecimento-header i {
